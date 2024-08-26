@@ -7,7 +7,8 @@ import {
   useReadContract,
 } from "wagmi";
 import { cn } from "./lib/utils";
-import { useReadWNatBalanceOf } from "./generated";
+import { useReadWNatBalanceOf, wNatAddress } from "./generated";
+import { formatEther } from "viem";
 
 function App() {
   const account = useAccount();
@@ -19,9 +20,11 @@ function App() {
     chainId: account.chainId,
   });
 
-  const { data } = useReadWNatBalanceOf({ account: account.address });
+  const { data } = useReadWNatBalanceOf({
+    args: [account.address],
+  });
 
-  console.log(data);
+  console.log(data?.toString());
 
   return (
     <>
@@ -96,7 +99,7 @@ function App() {
       </div>
       <div>
         <h2>Wrapped Balance:</h2>
-        {/* <div>{result.data?.formatted}{" "}{result.data?.symbol}</div> */}
+        {data !== undefined && <div>{formatEther(data)}</div>}
       </div>
     </>
   );

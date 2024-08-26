@@ -10,7 +10,10 @@ import {
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 /**
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const wNatAbi = [
   {
@@ -811,14 +814,23 @@ export const wNatAbi = [
 ] as const
 
 /**
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const wNatAddress = {
+  14: '0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d',
+  16: '0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91',
+  19: '0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED',
   114: '0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273',
 } as const
 
 /**
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const wNatConfig = { address: wNatAddress, abi: wNatAbi } as const
 
@@ -829,7 +841,10 @@ export const wNatConfig = { address: wNatAddress, abi: wNatAbi } as const
 /**
  * Wraps __{@link useReadContract}__ with `abi` set to __{@link wNatAbi}__
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useReadWNat = /*#__PURE__*/ createUseReadContract({
   abi: wNatAbi,
@@ -839,7 +854,10 @@ export const useReadWNat = /*#__PURE__*/ createUseReadContract({
 /**
  * Wraps __{@link useReadContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"allowance"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useReadWNatAllowance = /*#__PURE__*/ createUseReadContract({
   abi: wNatAbi,
@@ -850,7 +868,10 @@ export const useReadWNatAllowance = /*#__PURE__*/ createUseReadContract({
 /**
  * Wraps __{@link useReadContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"balanceOf"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useReadWNatBalanceOf = /*#__PURE__*/ createUseReadContract({
   abi: wNatAbi,
@@ -861,7 +882,10 @@ export const useReadWNatBalanceOf = /*#__PURE__*/ createUseReadContract({
 /**
  * Wraps __{@link useReadContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"balanceOfAt"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useReadWNatBalanceOfAt = /*#__PURE__*/ createUseReadContract({
   abi: wNatAbi,
@@ -872,7 +896,10 @@ export const useReadWNatBalanceOfAt = /*#__PURE__*/ createUseReadContract({
 /**
  * Wraps __{@link useReadContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"batchVotePowerOfAt"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useReadWNatBatchVotePowerOfAt =
   /*#__PURE__*/ createUseReadContract({
@@ -884,7 +911,10 @@ export const useReadWNatBatchVotePowerOfAt =
 /**
  * Wraps __{@link useReadContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"cleanerContract"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useReadWNatCleanerContract = /*#__PURE__*/ createUseReadContract({
   abi: wNatAbi,
@@ -895,7 +925,10 @@ export const useReadWNatCleanerContract = /*#__PURE__*/ createUseReadContract({
 /**
  * Wraps __{@link useReadContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"cleanupBlockNumber"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useReadWNatCleanupBlockNumber =
   /*#__PURE__*/ createUseReadContract({
@@ -907,7 +940,10 @@ export const useReadWNatCleanupBlockNumber =
 /**
  * Wraps __{@link useReadContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"cleanupBlockNumberManager"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useReadWNatCleanupBlockNumberManager =
   /*#__PURE__*/ createUseReadContract({
@@ -919,7 +955,10 @@ export const useReadWNatCleanupBlockNumberManager =
 /**
  * Wraps __{@link useReadContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"decimals"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useReadWNatDecimals = /*#__PURE__*/ createUseReadContract({
   abi: wNatAbi,
@@ -930,7 +969,10 @@ export const useReadWNatDecimals = /*#__PURE__*/ createUseReadContract({
 /**
  * Wraps __{@link useReadContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"delegatesOf"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useReadWNatDelegatesOf = /*#__PURE__*/ createUseReadContract({
   abi: wNatAbi,
@@ -941,7 +983,10 @@ export const useReadWNatDelegatesOf = /*#__PURE__*/ createUseReadContract({
 /**
  * Wraps __{@link useReadContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"delegatesOfAt"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useReadWNatDelegatesOfAt = /*#__PURE__*/ createUseReadContract({
   abi: wNatAbi,
@@ -952,7 +997,10 @@ export const useReadWNatDelegatesOfAt = /*#__PURE__*/ createUseReadContract({
 /**
  * Wraps __{@link useReadContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"delegationModeOf"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useReadWNatDelegationModeOf = /*#__PURE__*/ createUseReadContract({
   abi: wNatAbi,
@@ -963,7 +1011,10 @@ export const useReadWNatDelegationModeOf = /*#__PURE__*/ createUseReadContract({
 /**
  * Wraps __{@link useReadContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"governance"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useReadWNatGovernance = /*#__PURE__*/ createUseReadContract({
   abi: wNatAbi,
@@ -974,7 +1025,10 @@ export const useReadWNatGovernance = /*#__PURE__*/ createUseReadContract({
 /**
  * Wraps __{@link useReadContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"governanceSettings"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useReadWNatGovernanceSettings =
   /*#__PURE__*/ createUseReadContract({
@@ -986,7 +1040,10 @@ export const useReadWNatGovernanceSettings =
 /**
  * Wraps __{@link useReadContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"governanceVotePower"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useReadWNatGovernanceVotePower =
   /*#__PURE__*/ createUseReadContract({
@@ -998,7 +1055,10 @@ export const useReadWNatGovernanceVotePower =
 /**
  * Wraps __{@link useReadContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"name"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useReadWNatName = /*#__PURE__*/ createUseReadContract({
   abi: wNatAbi,
@@ -1009,7 +1069,10 @@ export const useReadWNatName = /*#__PURE__*/ createUseReadContract({
 /**
  * Wraps __{@link useReadContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"productionMode"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useReadWNatProductionMode = /*#__PURE__*/ createUseReadContract({
   abi: wNatAbi,
@@ -1020,7 +1083,10 @@ export const useReadWNatProductionMode = /*#__PURE__*/ createUseReadContract({
 /**
  * Wraps __{@link useReadContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"readVotePowerContract"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useReadWNatReadVotePowerContract =
   /*#__PURE__*/ createUseReadContract({
@@ -1032,7 +1098,10 @@ export const useReadWNatReadVotePowerContract =
 /**
  * Wraps __{@link useReadContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"symbol"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useReadWNatSymbol = /*#__PURE__*/ createUseReadContract({
   abi: wNatAbi,
@@ -1043,7 +1112,10 @@ export const useReadWNatSymbol = /*#__PURE__*/ createUseReadContract({
 /**
  * Wraps __{@link useReadContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"timelockedCalls"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useReadWNatTimelockedCalls = /*#__PURE__*/ createUseReadContract({
   abi: wNatAbi,
@@ -1054,7 +1126,10 @@ export const useReadWNatTimelockedCalls = /*#__PURE__*/ createUseReadContract({
 /**
  * Wraps __{@link useReadContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"totalSupply"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useReadWNatTotalSupply = /*#__PURE__*/ createUseReadContract({
   abi: wNatAbi,
@@ -1065,7 +1140,10 @@ export const useReadWNatTotalSupply = /*#__PURE__*/ createUseReadContract({
 /**
  * Wraps __{@link useReadContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"totalSupplyAt"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useReadWNatTotalSupplyAt = /*#__PURE__*/ createUseReadContract({
   abi: wNatAbi,
@@ -1076,7 +1154,10 @@ export const useReadWNatTotalSupplyAt = /*#__PURE__*/ createUseReadContract({
 /**
  * Wraps __{@link useReadContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"totalVotePower"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useReadWNatTotalVotePower = /*#__PURE__*/ createUseReadContract({
   abi: wNatAbi,
@@ -1087,7 +1168,10 @@ export const useReadWNatTotalVotePower = /*#__PURE__*/ createUseReadContract({
 /**
  * Wraps __{@link useReadContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"totalVotePowerAt"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useReadWNatTotalVotePowerAt = /*#__PURE__*/ createUseReadContract({
   abi: wNatAbi,
@@ -1098,7 +1182,10 @@ export const useReadWNatTotalVotePowerAt = /*#__PURE__*/ createUseReadContract({
 /**
  * Wraps __{@link useReadContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"undelegatedVotePowerOf"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useReadWNatUndelegatedVotePowerOf =
   /*#__PURE__*/ createUseReadContract({
@@ -1110,7 +1197,10 @@ export const useReadWNatUndelegatedVotePowerOf =
 /**
  * Wraps __{@link useReadContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"undelegatedVotePowerOfAt"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useReadWNatUndelegatedVotePowerOfAt =
   /*#__PURE__*/ createUseReadContract({
@@ -1122,7 +1212,10 @@ export const useReadWNatUndelegatedVotePowerOfAt =
 /**
  * Wraps __{@link useReadContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"votePowerFromTo"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useReadWNatVotePowerFromTo = /*#__PURE__*/ createUseReadContract({
   abi: wNatAbi,
@@ -1133,7 +1226,10 @@ export const useReadWNatVotePowerFromTo = /*#__PURE__*/ createUseReadContract({
 /**
  * Wraps __{@link useReadContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"votePowerFromToAt"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useReadWNatVotePowerFromToAt = /*#__PURE__*/ createUseReadContract(
   { abi: wNatAbi, address: wNatAddress, functionName: 'votePowerFromToAt' },
@@ -1142,7 +1238,10 @@ export const useReadWNatVotePowerFromToAt = /*#__PURE__*/ createUseReadContract(
 /**
  * Wraps __{@link useReadContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"votePowerOf"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useReadWNatVotePowerOf = /*#__PURE__*/ createUseReadContract({
   abi: wNatAbi,
@@ -1153,7 +1252,10 @@ export const useReadWNatVotePowerOf = /*#__PURE__*/ createUseReadContract({
 /**
  * Wraps __{@link useReadContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"votePowerOfAt"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useReadWNatVotePowerOfAt = /*#__PURE__*/ createUseReadContract({
   abi: wNatAbi,
@@ -1164,7 +1266,10 @@ export const useReadWNatVotePowerOfAt = /*#__PURE__*/ createUseReadContract({
 /**
  * Wraps __{@link useReadContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"votePowerOfAtIgnoringRevocation"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useReadWNatVotePowerOfAtIgnoringRevocation =
   /*#__PURE__*/ createUseReadContract({
@@ -1176,7 +1281,10 @@ export const useReadWNatVotePowerOfAtIgnoringRevocation =
 /**
  * Wraps __{@link useReadContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"vpContractInitialized"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useReadWNatVpContractInitialized =
   /*#__PURE__*/ createUseReadContract({
@@ -1188,7 +1296,10 @@ export const useReadWNatVpContractInitialized =
 /**
  * Wraps __{@link useReadContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"writeVotePowerContract"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useReadWNatWriteVotePowerContract =
   /*#__PURE__*/ createUseReadContract({
@@ -1200,7 +1311,10 @@ export const useReadWNatWriteVotePowerContract =
 /**
  * Wraps __{@link useWriteContract}__ with `abi` set to __{@link wNatAbi}__
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useWriteWNat = /*#__PURE__*/ createUseWriteContract({
   abi: wNatAbi,
@@ -1210,7 +1324,10 @@ export const useWriteWNat = /*#__PURE__*/ createUseWriteContract({
 /**
  * Wraps __{@link useWriteContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"approve"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useWriteWNatApprove = /*#__PURE__*/ createUseWriteContract({
   abi: wNatAbi,
@@ -1221,7 +1338,10 @@ export const useWriteWNatApprove = /*#__PURE__*/ createUseWriteContract({
 /**
  * Wraps __{@link useWriteContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"balanceHistoryCleanup"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useWriteWNatBalanceHistoryCleanup =
   /*#__PURE__*/ createUseWriteContract({
@@ -1233,7 +1353,10 @@ export const useWriteWNatBalanceHistoryCleanup =
 /**
  * Wraps __{@link useWriteContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"batchDelegate"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useWriteWNatBatchDelegate = /*#__PURE__*/ createUseWriteContract({
   abi: wNatAbi,
@@ -1244,7 +1367,10 @@ export const useWriteWNatBatchDelegate = /*#__PURE__*/ createUseWriteContract({
 /**
  * Wraps __{@link useWriteContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"cancelGovernanceCall"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useWriteWNatCancelGovernanceCall =
   /*#__PURE__*/ createUseWriteContract({
@@ -1256,7 +1382,10 @@ export const useWriteWNatCancelGovernanceCall =
 /**
  * Wraps __{@link useWriteContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"decreaseAllowance"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useWriteWNatDecreaseAllowance =
   /*#__PURE__*/ createUseWriteContract({
@@ -1268,7 +1397,10 @@ export const useWriteWNatDecreaseAllowance =
 /**
  * Wraps __{@link useWriteContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"delegate"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useWriteWNatDelegate = /*#__PURE__*/ createUseWriteContract({
   abi: wNatAbi,
@@ -1279,7 +1411,10 @@ export const useWriteWNatDelegate = /*#__PURE__*/ createUseWriteContract({
 /**
  * Wraps __{@link useWriteContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"delegateExplicit"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useWriteWNatDelegateExplicit =
   /*#__PURE__*/ createUseWriteContract({
@@ -1291,7 +1426,10 @@ export const useWriteWNatDelegateExplicit =
 /**
  * Wraps __{@link useWriteContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"deposit"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useWriteWNatDeposit = /*#__PURE__*/ createUseWriteContract({
   abi: wNatAbi,
@@ -1302,7 +1440,10 @@ export const useWriteWNatDeposit = /*#__PURE__*/ createUseWriteContract({
 /**
  * Wraps __{@link useWriteContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"depositTo"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useWriteWNatDepositTo = /*#__PURE__*/ createUseWriteContract({
   abi: wNatAbi,
@@ -1313,7 +1454,10 @@ export const useWriteWNatDepositTo = /*#__PURE__*/ createUseWriteContract({
 /**
  * Wraps __{@link useWriteContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"executeGovernanceCall"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useWriteWNatExecuteGovernanceCall =
   /*#__PURE__*/ createUseWriteContract({
@@ -1325,7 +1469,10 @@ export const useWriteWNatExecuteGovernanceCall =
 /**
  * Wraps __{@link useWriteContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"increaseAllowance"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useWriteWNatIncreaseAllowance =
   /*#__PURE__*/ createUseWriteContract({
@@ -1337,7 +1484,10 @@ export const useWriteWNatIncreaseAllowance =
 /**
  * Wraps __{@link useWriteContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"initialise"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useWriteWNatInitialise = /*#__PURE__*/ createUseWriteContract({
   abi: wNatAbi,
@@ -1348,7 +1498,10 @@ export const useWriteWNatInitialise = /*#__PURE__*/ createUseWriteContract({
 /**
  * Wraps __{@link useWriteContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"revokeDelegationAt"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useWriteWNatRevokeDelegationAt =
   /*#__PURE__*/ createUseWriteContract({
@@ -1360,7 +1513,10 @@ export const useWriteWNatRevokeDelegationAt =
 /**
  * Wraps __{@link useWriteContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"setCleanerContract"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useWriteWNatSetCleanerContract =
   /*#__PURE__*/ createUseWriteContract({
@@ -1372,7 +1528,10 @@ export const useWriteWNatSetCleanerContract =
 /**
  * Wraps __{@link useWriteContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"setCleanupBlockNumber"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useWriteWNatSetCleanupBlockNumber =
   /*#__PURE__*/ createUseWriteContract({
@@ -1384,7 +1543,10 @@ export const useWriteWNatSetCleanupBlockNumber =
 /**
  * Wraps __{@link useWriteContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"setCleanupBlockNumberManager"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useWriteWNatSetCleanupBlockNumberManager =
   /*#__PURE__*/ createUseWriteContract({
@@ -1396,7 +1558,10 @@ export const useWriteWNatSetCleanupBlockNumberManager =
 /**
  * Wraps __{@link useWriteContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"setGovernanceVotePower"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useWriteWNatSetGovernanceVotePower =
   /*#__PURE__*/ createUseWriteContract({
@@ -1408,7 +1573,10 @@ export const useWriteWNatSetGovernanceVotePower =
 /**
  * Wraps __{@link useWriteContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"setReadVpContract"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useWriteWNatSetReadVpContract =
   /*#__PURE__*/ createUseWriteContract({
@@ -1420,7 +1588,10 @@ export const useWriteWNatSetReadVpContract =
 /**
  * Wraps __{@link useWriteContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"setWriteVpContract"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useWriteWNatSetWriteVpContract =
   /*#__PURE__*/ createUseWriteContract({
@@ -1432,7 +1603,10 @@ export const useWriteWNatSetWriteVpContract =
 /**
  * Wraps __{@link useWriteContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"switchToProductionMode"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useWriteWNatSwitchToProductionMode =
   /*#__PURE__*/ createUseWriteContract({
@@ -1444,7 +1618,10 @@ export const useWriteWNatSwitchToProductionMode =
 /**
  * Wraps __{@link useWriteContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"totalSupplyCacheCleanup"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useWriteWNatTotalSupplyCacheCleanup =
   /*#__PURE__*/ createUseWriteContract({
@@ -1456,7 +1633,10 @@ export const useWriteWNatTotalSupplyCacheCleanup =
 /**
  * Wraps __{@link useWriteContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"totalSupplyHistoryCleanup"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useWriteWNatTotalSupplyHistoryCleanup =
   /*#__PURE__*/ createUseWriteContract({
@@ -1468,7 +1648,10 @@ export const useWriteWNatTotalSupplyHistoryCleanup =
 /**
  * Wraps __{@link useWriteContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"totalVotePowerAtCached"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useWriteWNatTotalVotePowerAtCached =
   /*#__PURE__*/ createUseWriteContract({
@@ -1480,7 +1663,10 @@ export const useWriteWNatTotalVotePowerAtCached =
 /**
  * Wraps __{@link useWriteContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"transfer"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useWriteWNatTransfer = /*#__PURE__*/ createUseWriteContract({
   abi: wNatAbi,
@@ -1491,7 +1677,10 @@ export const useWriteWNatTransfer = /*#__PURE__*/ createUseWriteContract({
 /**
  * Wraps __{@link useWriteContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"transferFrom"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useWriteWNatTransferFrom = /*#__PURE__*/ createUseWriteContract({
   abi: wNatAbi,
@@ -1502,7 +1691,10 @@ export const useWriteWNatTransferFrom = /*#__PURE__*/ createUseWriteContract({
 /**
  * Wraps __{@link useWriteContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"undelegateAll"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useWriteWNatUndelegateAll = /*#__PURE__*/ createUseWriteContract({
   abi: wNatAbi,
@@ -1513,7 +1705,10 @@ export const useWriteWNatUndelegateAll = /*#__PURE__*/ createUseWriteContract({
 /**
  * Wraps __{@link useWriteContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"undelegateAllExplicit"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useWriteWNatUndelegateAllExplicit =
   /*#__PURE__*/ createUseWriteContract({
@@ -1525,7 +1720,10 @@ export const useWriteWNatUndelegateAllExplicit =
 /**
  * Wraps __{@link useWriteContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"votePowerOfAtCached"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useWriteWNatVotePowerOfAtCached =
   /*#__PURE__*/ createUseWriteContract({
@@ -1537,7 +1735,10 @@ export const useWriteWNatVotePowerOfAtCached =
 /**
  * Wraps __{@link useWriteContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"withdraw"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useWriteWNatWithdraw = /*#__PURE__*/ createUseWriteContract({
   abi: wNatAbi,
@@ -1548,7 +1749,10 @@ export const useWriteWNatWithdraw = /*#__PURE__*/ createUseWriteContract({
 /**
  * Wraps __{@link useWriteContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"withdrawFrom"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useWriteWNatWithdrawFrom = /*#__PURE__*/ createUseWriteContract({
   abi: wNatAbi,
@@ -1559,7 +1763,10 @@ export const useWriteWNatWithdrawFrom = /*#__PURE__*/ createUseWriteContract({
 /**
  * Wraps __{@link useSimulateContract}__ with `abi` set to __{@link wNatAbi}__
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useSimulateWNat = /*#__PURE__*/ createUseSimulateContract({
   abi: wNatAbi,
@@ -1569,7 +1776,10 @@ export const useSimulateWNat = /*#__PURE__*/ createUseSimulateContract({
 /**
  * Wraps __{@link useSimulateContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"approve"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useSimulateWNatApprove = /*#__PURE__*/ createUseSimulateContract({
   abi: wNatAbi,
@@ -1580,7 +1790,10 @@ export const useSimulateWNatApprove = /*#__PURE__*/ createUseSimulateContract({
 /**
  * Wraps __{@link useSimulateContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"balanceHistoryCleanup"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useSimulateWNatBalanceHistoryCleanup =
   /*#__PURE__*/ createUseSimulateContract({
@@ -1592,7 +1805,10 @@ export const useSimulateWNatBalanceHistoryCleanup =
 /**
  * Wraps __{@link useSimulateContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"batchDelegate"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useSimulateWNatBatchDelegate =
   /*#__PURE__*/ createUseSimulateContract({
@@ -1604,7 +1820,10 @@ export const useSimulateWNatBatchDelegate =
 /**
  * Wraps __{@link useSimulateContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"cancelGovernanceCall"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useSimulateWNatCancelGovernanceCall =
   /*#__PURE__*/ createUseSimulateContract({
@@ -1616,7 +1835,10 @@ export const useSimulateWNatCancelGovernanceCall =
 /**
  * Wraps __{@link useSimulateContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"decreaseAllowance"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useSimulateWNatDecreaseAllowance =
   /*#__PURE__*/ createUseSimulateContract({
@@ -1628,7 +1850,10 @@ export const useSimulateWNatDecreaseAllowance =
 /**
  * Wraps __{@link useSimulateContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"delegate"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useSimulateWNatDelegate = /*#__PURE__*/ createUseSimulateContract({
   abi: wNatAbi,
@@ -1639,7 +1864,10 @@ export const useSimulateWNatDelegate = /*#__PURE__*/ createUseSimulateContract({
 /**
  * Wraps __{@link useSimulateContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"delegateExplicit"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useSimulateWNatDelegateExplicit =
   /*#__PURE__*/ createUseSimulateContract({
@@ -1651,7 +1879,10 @@ export const useSimulateWNatDelegateExplicit =
 /**
  * Wraps __{@link useSimulateContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"deposit"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useSimulateWNatDeposit = /*#__PURE__*/ createUseSimulateContract({
   abi: wNatAbi,
@@ -1662,7 +1893,10 @@ export const useSimulateWNatDeposit = /*#__PURE__*/ createUseSimulateContract({
 /**
  * Wraps __{@link useSimulateContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"depositTo"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useSimulateWNatDepositTo = /*#__PURE__*/ createUseSimulateContract(
   { abi: wNatAbi, address: wNatAddress, functionName: 'depositTo' },
@@ -1671,7 +1905,10 @@ export const useSimulateWNatDepositTo = /*#__PURE__*/ createUseSimulateContract(
 /**
  * Wraps __{@link useSimulateContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"executeGovernanceCall"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useSimulateWNatExecuteGovernanceCall =
   /*#__PURE__*/ createUseSimulateContract({
@@ -1683,7 +1920,10 @@ export const useSimulateWNatExecuteGovernanceCall =
 /**
  * Wraps __{@link useSimulateContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"increaseAllowance"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useSimulateWNatIncreaseAllowance =
   /*#__PURE__*/ createUseSimulateContract({
@@ -1695,7 +1935,10 @@ export const useSimulateWNatIncreaseAllowance =
 /**
  * Wraps __{@link useSimulateContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"initialise"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useSimulateWNatInitialise =
   /*#__PURE__*/ createUseSimulateContract({
@@ -1707,7 +1950,10 @@ export const useSimulateWNatInitialise =
 /**
  * Wraps __{@link useSimulateContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"revokeDelegationAt"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useSimulateWNatRevokeDelegationAt =
   /*#__PURE__*/ createUseSimulateContract({
@@ -1719,7 +1965,10 @@ export const useSimulateWNatRevokeDelegationAt =
 /**
  * Wraps __{@link useSimulateContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"setCleanerContract"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useSimulateWNatSetCleanerContract =
   /*#__PURE__*/ createUseSimulateContract({
@@ -1731,7 +1980,10 @@ export const useSimulateWNatSetCleanerContract =
 /**
  * Wraps __{@link useSimulateContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"setCleanupBlockNumber"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useSimulateWNatSetCleanupBlockNumber =
   /*#__PURE__*/ createUseSimulateContract({
@@ -1743,7 +1995,10 @@ export const useSimulateWNatSetCleanupBlockNumber =
 /**
  * Wraps __{@link useSimulateContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"setCleanupBlockNumberManager"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useSimulateWNatSetCleanupBlockNumberManager =
   /*#__PURE__*/ createUseSimulateContract({
@@ -1755,7 +2010,10 @@ export const useSimulateWNatSetCleanupBlockNumberManager =
 /**
  * Wraps __{@link useSimulateContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"setGovernanceVotePower"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useSimulateWNatSetGovernanceVotePower =
   /*#__PURE__*/ createUseSimulateContract({
@@ -1767,7 +2025,10 @@ export const useSimulateWNatSetGovernanceVotePower =
 /**
  * Wraps __{@link useSimulateContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"setReadVpContract"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useSimulateWNatSetReadVpContract =
   /*#__PURE__*/ createUseSimulateContract({
@@ -1779,7 +2040,10 @@ export const useSimulateWNatSetReadVpContract =
 /**
  * Wraps __{@link useSimulateContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"setWriteVpContract"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useSimulateWNatSetWriteVpContract =
   /*#__PURE__*/ createUseSimulateContract({
@@ -1791,7 +2055,10 @@ export const useSimulateWNatSetWriteVpContract =
 /**
  * Wraps __{@link useSimulateContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"switchToProductionMode"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useSimulateWNatSwitchToProductionMode =
   /*#__PURE__*/ createUseSimulateContract({
@@ -1803,7 +2070,10 @@ export const useSimulateWNatSwitchToProductionMode =
 /**
  * Wraps __{@link useSimulateContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"totalSupplyCacheCleanup"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useSimulateWNatTotalSupplyCacheCleanup =
   /*#__PURE__*/ createUseSimulateContract({
@@ -1815,7 +2085,10 @@ export const useSimulateWNatTotalSupplyCacheCleanup =
 /**
  * Wraps __{@link useSimulateContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"totalSupplyHistoryCleanup"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useSimulateWNatTotalSupplyHistoryCleanup =
   /*#__PURE__*/ createUseSimulateContract({
@@ -1827,7 +2100,10 @@ export const useSimulateWNatTotalSupplyHistoryCleanup =
 /**
  * Wraps __{@link useSimulateContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"totalVotePowerAtCached"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useSimulateWNatTotalVotePowerAtCached =
   /*#__PURE__*/ createUseSimulateContract({
@@ -1839,7 +2115,10 @@ export const useSimulateWNatTotalVotePowerAtCached =
 /**
  * Wraps __{@link useSimulateContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"transfer"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useSimulateWNatTransfer = /*#__PURE__*/ createUseSimulateContract({
   abi: wNatAbi,
@@ -1850,7 +2129,10 @@ export const useSimulateWNatTransfer = /*#__PURE__*/ createUseSimulateContract({
 /**
  * Wraps __{@link useSimulateContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"transferFrom"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useSimulateWNatTransferFrom =
   /*#__PURE__*/ createUseSimulateContract({
@@ -1862,7 +2144,10 @@ export const useSimulateWNatTransferFrom =
 /**
  * Wraps __{@link useSimulateContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"undelegateAll"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useSimulateWNatUndelegateAll =
   /*#__PURE__*/ createUseSimulateContract({
@@ -1874,7 +2159,10 @@ export const useSimulateWNatUndelegateAll =
 /**
  * Wraps __{@link useSimulateContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"undelegateAllExplicit"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useSimulateWNatUndelegateAllExplicit =
   /*#__PURE__*/ createUseSimulateContract({
@@ -1886,7 +2174,10 @@ export const useSimulateWNatUndelegateAllExplicit =
 /**
  * Wraps __{@link useSimulateContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"votePowerOfAtCached"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useSimulateWNatVotePowerOfAtCached =
   /*#__PURE__*/ createUseSimulateContract({
@@ -1898,7 +2189,10 @@ export const useSimulateWNatVotePowerOfAtCached =
 /**
  * Wraps __{@link useSimulateContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"withdraw"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useSimulateWNatWithdraw = /*#__PURE__*/ createUseSimulateContract({
   abi: wNatAbi,
@@ -1909,7 +2203,10 @@ export const useSimulateWNatWithdraw = /*#__PURE__*/ createUseSimulateContract({
 /**
  * Wraps __{@link useSimulateContract}__ with `abi` set to __{@link wNatAbi}__ and `functionName` set to `"withdrawFrom"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useSimulateWNatWithdrawFrom =
   /*#__PURE__*/ createUseSimulateContract({
@@ -1921,7 +2218,10 @@ export const useSimulateWNatWithdrawFrom =
 /**
  * Wraps __{@link useWatchContractEvent}__ with `abi` set to __{@link wNatAbi}__
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useWatchWNatEvent = /*#__PURE__*/ createUseWatchContractEvent({
   abi: wNatAbi,
@@ -1931,7 +2231,10 @@ export const useWatchWNatEvent = /*#__PURE__*/ createUseWatchContractEvent({
 /**
  * Wraps __{@link useWatchContractEvent}__ with `abi` set to __{@link wNatAbi}__ and `eventName` set to `"Approval"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useWatchWNatApprovalEvent =
   /*#__PURE__*/ createUseWatchContractEvent({
@@ -1943,7 +2246,10 @@ export const useWatchWNatApprovalEvent =
 /**
  * Wraps __{@link useWatchContractEvent}__ with `abi` set to __{@link wNatAbi}__ and `eventName` set to `"CreatedTotalSupplyCache"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useWatchWNatCreatedTotalSupplyCacheEvent =
   /*#__PURE__*/ createUseWatchContractEvent({
@@ -1955,7 +2261,10 @@ export const useWatchWNatCreatedTotalSupplyCacheEvent =
 /**
  * Wraps __{@link useWatchContractEvent}__ with `abi` set to __{@link wNatAbi}__ and `eventName` set to `"Deposit"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useWatchWNatDepositEvent =
   /*#__PURE__*/ createUseWatchContractEvent({
@@ -1967,7 +2276,10 @@ export const useWatchWNatDepositEvent =
 /**
  * Wraps __{@link useWatchContractEvent}__ with `abi` set to __{@link wNatAbi}__ and `eventName` set to `"GovernanceCallTimelocked"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useWatchWNatGovernanceCallTimelockedEvent =
   /*#__PURE__*/ createUseWatchContractEvent({
@@ -1979,7 +2291,10 @@ export const useWatchWNatGovernanceCallTimelockedEvent =
 /**
  * Wraps __{@link useWatchContractEvent}__ with `abi` set to __{@link wNatAbi}__ and `eventName` set to `"GovernanceInitialised"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useWatchWNatGovernanceInitialisedEvent =
   /*#__PURE__*/ createUseWatchContractEvent({
@@ -1991,7 +2306,10 @@ export const useWatchWNatGovernanceInitialisedEvent =
 /**
  * Wraps __{@link useWatchContractEvent}__ with `abi` set to __{@link wNatAbi}__ and `eventName` set to `"GovernedProductionModeEntered"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useWatchWNatGovernedProductionModeEnteredEvent =
   /*#__PURE__*/ createUseWatchContractEvent({
@@ -2003,7 +2321,10 @@ export const useWatchWNatGovernedProductionModeEnteredEvent =
 /**
  * Wraps __{@link useWatchContractEvent}__ with `abi` set to __{@link wNatAbi}__ and `eventName` set to `"TimelockedGovernanceCallCanceled"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useWatchWNatTimelockedGovernanceCallCanceledEvent =
   /*#__PURE__*/ createUseWatchContractEvent({
@@ -2015,7 +2336,10 @@ export const useWatchWNatTimelockedGovernanceCallCanceledEvent =
 /**
  * Wraps __{@link useWatchContractEvent}__ with `abi` set to __{@link wNatAbi}__ and `eventName` set to `"TimelockedGovernanceCallExecuted"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useWatchWNatTimelockedGovernanceCallExecutedEvent =
   /*#__PURE__*/ createUseWatchContractEvent({
@@ -2027,7 +2351,10 @@ export const useWatchWNatTimelockedGovernanceCallExecutedEvent =
 /**
  * Wraps __{@link useWatchContractEvent}__ with `abi` set to __{@link wNatAbi}__ and `eventName` set to `"Transfer"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useWatchWNatTransferEvent =
   /*#__PURE__*/ createUseWatchContractEvent({
@@ -2039,7 +2366,10 @@ export const useWatchWNatTransferEvent =
 /**
  * Wraps __{@link useWatchContractEvent}__ with `abi` set to __{@link wNatAbi}__ and `eventName` set to `"VotePowerContractChanged"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useWatchWNatVotePowerContractChangedEvent =
   /*#__PURE__*/ createUseWatchContractEvent({
@@ -2051,7 +2381,10 @@ export const useWatchWNatVotePowerContractChangedEvent =
 /**
  * Wraps __{@link useWatchContractEvent}__ with `abi` set to __{@link wNatAbi}__ and `eventName` set to `"Withdrawal"`
  *
- * [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
+ * - [__View Contract on Flare Mainnet Flare Explorer__](https://flare-explorer.flare.network/address/0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d)
+ * - [__View Contract on Coston Coston Explorer__](https://coston-explorer.flare.network/address/0x767b25A658E8FC8ab6eBbd52043495dB61b4ea91)
+ * - [__View Contract on Songbird Mainnet Songbird Explorer__](https://songbird-explorer.flare.network/address/0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED)
+ * - [__View Contract on Coston2 Coston2 Explorer__](https://coston2-explorer.flare.network/address/0xC67DCE33D7A8efA5FfEB961899C73fe01bCe9273)
  */
 export const useWatchWNatWithdrawalEvent =
   /*#__PURE__*/ createUseWatchContractEvent({
