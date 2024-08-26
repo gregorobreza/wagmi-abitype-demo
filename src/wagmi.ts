@@ -1,12 +1,5 @@
 import { createConfig, http } from "wagmi";
-import {
-  flare,
-  flareTestnet,
-  mainnet,
-  sepolia,
-  songbird,
-  songbirdTestnet,
-} from "wagmi/chains";
+import { flare, flareTestnet, songbird, songbirdTestnet } from "wagmi/chains";
 import { coinbaseWallet, injected, walletConnect } from "wagmi/connectors";
 
 export const config = createConfig({

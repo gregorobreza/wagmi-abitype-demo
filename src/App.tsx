@@ -1,30 +1,80 @@
+import { useQueryClient } from "@tanstack/react-query";
+import { useEffect, useState } from "react";
+import { formatEther, parseEther } from "viem";
 import {
   useAccount,
+  useBalance,
   useConnect,
   useDisconnect,
   useSwitchChain,
-  useBalance,
-  useReadContract,
+  useWaitForTransactionReceipt
 } from "wagmi";
+import {
+  useReadWNatBalanceOf,
+  useWriteWNatDeposit,
+  useWriteWNatWithdraw,
+} from "./generated";
 import { cn } from "./lib/utils";
-import { useReadWNatBalanceOf, wNatAddress } from "./generated";
-import { formatEther } from "viem";
 
 function App() {
+  const queryClient = useQueryClient();
   const account = useAccount();
   const { connectors, connect, status, error } = useConnect();
   const { chains, switchChain } = useSwitchChain();
   const { disconnect } = useDisconnect();
-  const result = useBalance({
+  const { data: balance, queryKey: balanceQueryKey } = useBalance({
     address: account.address,
-    chainId: account.chainId,
+    query: {
+      enabled: typeof account.address == "string",
+    },
   });
 
-  const { data } = useReadWNatBalanceOf({
-    args: [account.address],
+  const { data, queryKey: wrappedQueryKey } = useReadWNatBalanceOf({
+    args: [account.address as `0x${string}`],
+    query: {
+      enabled: typeof account.address == "string",
+    },
   });
 
-  console.log(data?.toString());
+  const [wrapAmount, setWrapAmount] = useState<string>("");
+  const [unwrapAmount, setUnwrapAmount] = useState<string>("");
+  const { data: depositHash, writeContract: writeDeposit } =
+    useWriteWNatDeposit({
+      mutation: {
+        onSuccess() {
+          setWrapAmount("");
+        },
+      },
+    });
+  const {
+    isLoading: depositIsConfirming,
+    isSuccess: depositIsConfirmed,
+    data: depositReceiptData,
+  } = useWaitForTransactionReceipt({
+    hash: depositHash,
+  });
+  const {
+    data: withdrawHash,
+    writeContract: writeWithdraw,
+  } = useWriteWNatWithdraw({
+    mutation: {
+      onSuccess() {
+        setUnwrapAmount("");
+      },
+    },
+  });
+  const {
+    isLoading: withdrawIsConfirming,
+    isSuccess: withdrawIsConfirmed,
+    data: withdrawReceiptData,
+  } = useWaitForTransactionReceipt({
+    hash: withdrawHash,
+  });
+
+  useEffect(() => {
+    queryClient.refetchQueries({ queryKey: balanceQueryKey });
+    queryClient.refetchQueries({ queryKey: wrappedQueryKey });
+  }, [withdrawReceiptData, depositReceiptData]);
 
   return (
     <>
@@ -94,12 +144,52 @@ function App() {
       <div>
         <h2>Balance:</h2>
         <div>
-          {result.data?.formatted} {result.data?.symbol}
+          {balance?.formatted} {balance?.symbol}
         </div>
       </div>
       <div>
         <h2>Wrapped Balance:</h2>
         {data !== undefined && <div>{formatEther(data)}</div>}
+      </div>
+      <div>
+        <h2>Wrap flare:</h2>
+        <div className="flex gap-x-3">
+          <input
+            className="bg-gray-200 text-black"
+            value={wrapAmount}
+            onChange={(event) => setWrapAmount(event.target.value)}
+          />
+          <button
+            className="bg-pink-300 rounded-lg px-3 text-black"
+            onClick={() => writeDeposit({ value: parseEther(wrapAmount) })}
+          >
+            Wrap
+          </button>
+        </div>
+        {depositIsConfirming && <div>Waiting for confirmation...</div>}
+        {depositIsConfirmed && <div>Transaction confirmed.</div>}
+      </div>
+      <div>
+        <h2>Unwrap flare:</h2>
+        <div className="flex gap-x-3">
+          <input
+            className="bg-gray-200 text-black"
+            value={unwrapAmount}
+            onChange={(event) => setUnwrapAmount(event.target.value)}
+          />
+          <button
+            className="bg-pink-300 rounded-lg px-3 text-black"
+            onClick={() =>
+              writeWithdraw({
+                args: [parseEther(unwrapAmount)],
+              })
+            }
+          >
+            Unwrap
+          </button>
+        </div>
+        {withdrawIsConfirming && <div>Waiting for confirmation...</div>}
+        {withdrawIsConfirmed && <div>Transaction confirmed.</div>}
       </div>
     </>
   );

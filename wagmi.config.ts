@@ -8,7 +8,7 @@ export default defineConfig({
   out: "src/generated.ts",
   contracts: [
     {
-      abi: WNat.abi as Abi, //is that ok
+      abi: WNat.abi as Abi,
       name: "wNat",
       address: {
         [flare.id]: "0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d",
