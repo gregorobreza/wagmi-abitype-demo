@@ -4,8 +4,10 @@ import {
   useDisconnect,
   useSwitchChain,
   useBalance,
+  useReadContract,
 } from "wagmi";
 import { cn } from "./lib/utils";
+import { useReadWNatBalanceOf } from "./generated";
 
 function App() {
   const account = useAccount();
@@ -17,6 +19,9 @@ function App() {
     chainId: account.chainId,
   });
 
+  const { data } = useReadWNatBalanceOf({ account: account.address });
+
+  console.log(data);
 
   return (
     <>
@@ -85,7 +90,13 @@ function App() {
       )}
       <div>
         <h2>Balance:</h2>
-        <div>{result.data?.formatted}{" "}{result.data?.symbol}</div>
+        <div>
+          {result.data?.formatted} {result.data?.symbol}
+        </div>
+      </div>
+      <div>
+        <h2>Wrapped Balance:</h2>
+        {/* <div>{result.data?.formatted}{" "}{result.data?.symbol}</div> */}
       </div>
     </>
   );
