@@ -53,16 +53,14 @@ function App() {
   } = useWaitForTransactionReceipt({
     hash: depositHash,
   });
-  const {
-    data: withdrawHash,
-    writeContract: writeWithdraw,
-  } = useWriteWNatWithdraw({
-    mutation: {
-      onSuccess() {
-        setUnwrapAmount("");
+  const { data: withdrawHash, writeContract: writeWithdraw } =
+    useWriteWNatWithdraw({
+      mutation: {
+        onSuccess() {
+          setUnwrapAmount("");
+        },
       },
-    },
-  });
+    });
   const {
     isLoading: withdrawIsConfirming,
     isSuccess: withdrawIsConfirmed,
@@ -107,7 +105,10 @@ function App() {
         <div className="flex gap-x-6">
           {connectors.map((connector) => (
             <button
-              className="bg-blue-600 px-3 rounded-full "
+              className={cn(
+                " px-3 rounded-full ",
+                connector == account.connector ? "bg-green-600" : "bg-blue-600"
+              )}
               key={connector.uid}
               onClick={() => connect({ connector })}
               type="button"

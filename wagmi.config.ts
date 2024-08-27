@@ -1,8 +1,8 @@
 import { defineConfig } from "@wagmi/cli";
-import { etherscan, react } from "@wagmi/cli/plugins";
-import WNat from "./resources/abi/WNat.json";
+import { react } from "@wagmi/cli/plugins";
 import { Abi } from "viem";
 import { flare, flareTestnet, songbird, songbirdTestnet } from "wagmi/chains";
+import WNat from "./resources/abi/WNat.json";
 
 export default defineConfig({
   out: "src/generated.ts",
